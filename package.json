@@ -1,5 +1,5 @@
 {
-  "name": "react-library-generator",
+  "name": "@fizzmod/react-library-generator",
   "version": "1.0.0",
   "description": "Generates react library template",
   "main": "index.js",
