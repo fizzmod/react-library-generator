@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Generates react library template",
   "main": "index.js",
+  "bin": {
+    "react-library-generator": "index.js"
+  },
   "scripts": {
     "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
     "test-ci": "nyc --reporter=html --reporter=text mocha --recursive tests/",
