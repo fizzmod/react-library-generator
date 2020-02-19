@@ -1,0 +1,42 @@
+{
+  "name": "react-library-generator",
+  "version": "1.0.0",
+  "description": "Generates react library template",
+  "main": "index.js",
+  "scripts": {
+    "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
+    "test-ci": "nyc --reporter=html --reporter=text mocha --recursive tests/",
+    "watch-test": "export TEST_ENV=true; mocha --exit -R nyan -w --recursive tests/",
+    "coverage": "nyc npm test",
+    "lint": "eslint index.js lib/ tests/"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fizzmod/react-library-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/fizzmod/react-library-generator#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "child_process": "^1.0.2",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "ncp": "^2.0.0",
+    "prompts": "^2.3.0",
+    "recursive-readdir": "^2.2.2",
+    "tmp-promise": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.3",
+    "mocha": "^7.0.1",
+    "mock-fs": "^4.10.4",
+    "mock-require": "^3.0.3",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.0"
+  }
+}
