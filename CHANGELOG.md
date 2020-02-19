@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-02-19
+### Fixed
+- Fix package json for usage npx
+
 ## [1.0.1] - 2020-02-19
 ### Fixed
 - Fix package json for usage bin and npx

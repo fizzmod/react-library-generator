@@ -1,6 +1,6 @@
 {
   "name": "@fizzmod/react-library-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates react library template",
   "main": "index.js",
   "bin": {
@@ -41,5 +41,12 @@
     "mock-require": "^3.0.3",
     "nyc": "^15.0.0",
     "sinon": "^9.0.0"
+  },
+  "files": [
+    "lib/",
+    "template/"
+  ],
+  "directories": {
+    "test": "tests"
   }
 }
