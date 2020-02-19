@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.3] - 2020-02-19
+### Fixed
+- Fix gitignore error in template
+
 ## [1.0.2] - 2020-02-19
 ### Fixed
 - Fix package json for usage npx
