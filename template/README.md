@@ -12,7 +12,7 @@ npm install [[packageScope]][[packageName]]
 
 ## Usage
 ```js
-const [[packageNameComponent]] = require('[[packageScope]][[packageName]]');
+import [[packageNameComponent]] from '[[packageScope]][[packageName]]';
 
 ```
 
